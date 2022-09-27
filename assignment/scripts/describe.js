@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// line 17 is declaring a mutable variable and setting it equal to the integer 1
-// line 19 is incrementing the value of the number variable up by 1. (line 19 makes number = number + 1) 
+// line 17 is declaring a mutable variable named number and setting it equal to the integer 1
+// line 19 is incrementing the value stored in that variable (number) up by 1. (line 19 makes number = number + 1) 
 // lines 21-23 check the condition in parenthasies: "is the value stored in the variable named 'number' greater than or equal to 2?". If that condition evaluates to true (it does), then it runs the block of code in the curly braces.
 // the code in the curly braces in line 22 prints the string 'yes' to the console
 
