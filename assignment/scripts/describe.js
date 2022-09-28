@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // line 17 is declaring a mutable variable named number and setting it equal to the integer 1
-// line 19 is incrementing the value stored in that variable (number) up by 1. (line 19 makes number = number + 1) 
+// line 19 is incrementing the value stored in that variable (number) up by 1. (line 19 makes number = number + 1) now number = 2.
 // lines 21-23 check the condition in parenthasies: "is the value stored in the variable named 'number' greater than or equal to 2?". If that condition evaluates to true (it does), then it runs the block of code in the curly braces.
 // the code in the curly braces in line 22 prints the string 'yes' to the console
 
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// line 36 is declaring a variable (name), and assigning the string 'Dane' to to that variable
+// lines 38 checks if the value stored in the variable (name) matches the string 'Mary'. If that condition evaluates to truem it runs the code block in the curly braces
+// The code in the braces prints the string "Hi, Mary!" to the console
+// If the condition in the brackets of line 38 do not evaluate to true(in this example it evaluates to false), the code block in the curly brackets following else
+// these curly brackets print the string "How do you do?"
 
 //CODE
 /*
@@ -70,9 +71,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// line 56 declares an empty variable named secret
+// line 58 declares a variable named code and assigns the integer value 123 to it
+// lines 60-63 check if the value in the variable code is equal to 123. If it is, it assigns the string "super" to the variable secret, and multiplies 
 //
 
 //CODE
