@@ -72,10 +72,10 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // Lines 82-84 declare 3 variables isStudent is true, age is 34, and zip is 55407
-// 
-// 
-// 
-// 
+// line 86 checks if isStudent is true and if the zip is larger than 80000. It is not true so it skips the code block and checks the next condition
+// line 88 checks if isStudent is false or if age is less than 30. Neither of these evaluate to true, so it also skips this code block and checks the next conditional
+// line 90 checks if isStudent is true. It is, so it logs the string "Welcome to Prime" to teh console. 
+// line 92 only runs if all of the proceeding conditions were not met, so it does not log 'How about the weather' to the console
 
 //CODE
 /*
@@ -132,10 +132,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//colorOne and colorTwo are reversed from the description... it does not seem to matter in how the code runs, but should be fixed for consistency
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// only colorOne is is being reassigned the value 'purple' a line of code assinging colorTwo the value 'purple' should be added inside the curly brackets
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,9 +148,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//time is typically something you would want your code to be able to reassign a value to, so it should likely be declared using let rather than const
 let temp = 40;
 const time = 4;
 
+// the conditional is using the or operator. Replace || with && to check if both conditions are met before running the code block
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,6 +166,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//the code block for if and else should be swapped to allow entry if the min age condition is met
 if(minAge <= age) {
   console.log('no entry');
 } else {
